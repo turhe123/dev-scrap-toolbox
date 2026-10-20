@@ -1,0 +1,6 @@
+[
+  {"file":"01-json-formatter.png","caption":"The JSON Formatter pretty-prints minified JSON with sorted keys, next to a sidebar of all eight developer tools.","alt":"DevScrapToolbox main window showing the JSON Formatter with minified input and formatted output"},
+  {"file":"02-jwt-decoder.png","caption":"Paste and Detect recognizes a JWT on the clipboard and decodes its header and payload, with a clear note that the signature is not verified.","alt":"JWT Decoder showing a decoded token header and payload"},
+  {"file":"03-settings.png","caption":"Settings let you pick a global hotkey, editor font size, auto-detect on activation and launch at login.","alt":"DevScrapToolbox Settings window"},
+  {"file":"04-menu-bar.png","caption":"The menu bar item gives quick access to Open, Paste and Detect, Settings and Support.","alt":"DevScrapToolbox menu bar menu"}
+]

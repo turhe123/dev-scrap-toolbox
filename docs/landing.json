@@ -1,0 +1,60 @@
+{
+  "seo_title": "Offline developer toolbox for macOS",
+  "seo_description": "Free, open-source macOS toolbox for JSON, Base64, JWT, hashes and timestamps. Paste and Detect picks the right tool from your clipboard. Fully offline.",
+  "hero_title_line1": "Every dev converter.",
+  "hero_title_accent": "One paste away.",
+  "hero_sub": "DevScrapToolbox formats JSON, decodes JWTs, hashes files and converts timestamps, all offline. Press Shift-Command-V and it opens the right tool; Control-Option-Space summons it from anywhere.",
+  "features_title": "Eight tools, no browser tabs.",
+  "features_sub": "Each tool has an input pane, an output pane and a copy button, so the common conversions take seconds.",
+  "features": [
+    {
+      "icon": "clipboard",
+      "title": "Paste and Detect",
+      "desc": "Reads your clipboard, guesses whether it is JSON, a JWT, a timestamp, URL-encoded or Base64, and opens the matching tool with the content already filled in."
+    },
+    {
+      "icon": "text",
+      "title": "JSON with exact error positions",
+      "desc": "Pretty-print with sorted keys or minify. Invalid input reports the line and column, and large files are processed off the main thread with a progress indicator."
+    },
+    {
+      "icon": "lock",
+      "title": "JWT decoder that stays honest",
+      "desc": "Shows header and payload as readable JSON, converts exp, iat and nbf to dates and flags expired tokens. It states clearly that the signature is not verified."
+    },
+    {
+      "icon": "sliders",
+      "title": "Hashes, UUIDs, timestamps, case",
+      "desc": "MD5, SHA1, SHA256 and SHA512 of text or a dropped file, up to 10,000 UUIDs at once, seconds or milliseconds timestamps in local and UTC, and camel, snake, kebab or upper case."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey and menu bar",
+      "desc": "Bring up the window from any app with a hotkey you choose in Settings, or use the menu bar item for Open, Paste and Detect, Settings and Support."
+    },
+    {
+      "icon": "shield",
+      "title": "Offline by design",
+      "desc": "No network calls, no analytics and no third-party dependencies. Only Apple frameworks, and your data never leaves your Mac."
+    }
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {
+      "q": "Is DevScrapToolbox really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. If it saves you time, there is an optional Support button in Settings and the menu bar."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None. It does not use Accessibility, Screen Recording or Microphone access. It reads the clipboard only when you use Paste and Detect or when auto-detect is on, which you can turn off in Settings."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Nothing you paste is saved or sent anywhere. Only your preferences, such as hotkey and font size, are stored locally on your Mac."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # DevScrapToolbox
 
+**🌐 Website:** [turhe123.github.io/dev-scrap-toolbox](https://turhe123.github.io/dev-scrap-toolbox/)
+
 An offline toolbox of everyday developer converters like JSON, [removed], JWT, hashes and timestamps, fed from your clipboard.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,21 @@ DevScrapToolbox is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-json-formatter.png" alt="DevScrapToolbox main window showing the JSON Formatter with minified input and formatted output" width="720"></p>
+
+<p align="center"><em>The JSON Formatter pretty-prints minified JSON with sorted keys, next to a sidebar of all eight developer tools.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-jwt-decoder.png" alt="JWT Decoder showing a decoded token header and payload" width="560"></p>
+
+<p align="center"><em>Paste and Detect recognizes a JWT on the clipboard and decodes its header and payload, with a clear note that the signature is not verified.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="DevScrapToolbox Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you pick a global hotkey, editor font size, auto-detect on activation and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-menu-bar.png" alt="DevScrapToolbox menu bar menu" width="560"></p>
+
+<p align="center"><em>The menu bar item gives quick access to Open, Paste and Detect, Settings and Support.</em></p>
 
 ## Install
 
